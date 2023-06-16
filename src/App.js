@@ -28,7 +28,7 @@ export default function App() {
           movies.map((data, index) => (
             <Link to={`/booking/${index}`}>
               <Cards
-                image={data.show.image.medium}
+                image={data.show.image?.medium}
                 title={data.show.name}
                 language={data.show.language}
                 genres={data.show.genres}
