@@ -37,7 +37,7 @@ export default function Bookingform() {
         <div>
           <p className="ms-8 underline pt-4 text-4xl  font-bold">{data?.name}</p>
           <div className="mt-6">
-            <div className="w-full  max-h-72">
+            <div className="w-full h-full">
               <CardBody className=" h-full w-full  bg-white  bottom-10 left-72 right-10 top-96 ">
                 <p className=" text-lg">{data?.summary}</p>
               </CardBody>
