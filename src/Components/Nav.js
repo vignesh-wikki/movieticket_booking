@@ -27,7 +27,7 @@ export default function Nav() {
         </div>
       </div>
       {toggleMenu && (
-              <div className="mt-20 z-[100] bg-black absolute top-1 right-8 p-8">
+            <div className="rounded-lg mt-20 z-[100] bg-black absolute top-1 right-8 p-8">
                 <NavLink
                   className=" text-white hover:text-black hover:bg-cyan-100 hover:rounded-md block cursor-pointer p-2"
                   to="/"
