@@ -20,7 +20,7 @@ export default function App() {
   let i = 0;
 
   return (
-    <div className="w-full h-full">
+    <div className=" w-full bg-blue-gray-300">
       <Nav />
 <div className="pt-12">
       <div className=" flex justify-center flex-wrap  mb-20">
