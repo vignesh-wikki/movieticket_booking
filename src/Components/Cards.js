@@ -5,7 +5,7 @@ export default function Cards({ image, genres, title, language}) {
   return (
     <>
       
-        <div className=" cursor-pointer ms-4 mt-5 mb-20 w-[15rem] h-[15rem] bg-white   rounded-lg dark:bg-gray-800 dark:border-gray-700">
+        <div className=" cursor-pointer ms-4 mt-5 mb-20 w-[15rem] h-[15rem] rounded-lg dark:bg-gray-800 dark:border-gray-700">
           <img
             className="rounded-lg w-full h-full object-cover hover:scale-90 transition-all duration-500"
             src={image}
