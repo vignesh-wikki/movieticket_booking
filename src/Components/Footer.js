@@ -5,7 +5,7 @@ export default function Footer() {
   let year = d.getFullYear();
   return (
    
-<footer class=" bg-white  rounded-lg shadow m-3 dark:bg-gray-800">
+<footer class="rounded-lg shadow bg-pink-900 dark:bg-gray-800">
     <div class="w-full   p-4 md:flex md:items-center md:justify-between">
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© {year} . <a href="https://flowbite.com/" class="hover:underline"></a>All Rights Reserved.
     </span>
