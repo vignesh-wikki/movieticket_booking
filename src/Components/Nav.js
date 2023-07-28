@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/booking.png";
+import logo from "../assets/movies.png";
 import user_png from "../assets/user.png";
 import menu_icon from "../assets/menu.png";
 import { NavLink } from "react-router-dom";
@@ -12,8 +12,9 @@ export default function Nav() {
     <>
       <div className="backdrop-blur-md shadow-md w-full
             fixed top-0 left-0 right-0 z-10  h-[11%] overflow-hidden  flex justify-start ">
-        <NavLink to="/" className="ps-8">
-          <img src={logo}  className=" w-20 h-18" alt="logo-icon" />
+        <NavLink to="/" className="ps-8 flex">
+          <img src={logo}  className="p-1 w-16 h-16" alt="logo-icon" />
+          <h1 className=" text-2xl mt-3 font-bold italic -tracking-normal">Book Tickets</h1>
         </NavLink>
 
         <div className=" absolute right-10 top-6 ">
